@@ -33,14 +33,14 @@ public class Bot extends TelegramLongPollingBot {
     @Autowired
     private AdminService adminService;
 
-    @Value("8030777843:AAHcw2AOhhRv1resbl56Y7qMYbA2PgXlLk0")
+    @Value("botToken")
     private String botToken;
 
-    @Value("Bookingtestingbot")
+    @Value("botUsername")
     private String botUsername;
 
     private final Set<Long> adminIds = Set.of(
-            1083640393L // ← сюда впиши свой Telegram ID
+            **********L // ← сюда впиши свой Telegram ID
     );
 
 
